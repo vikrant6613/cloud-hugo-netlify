@@ -1,6 +1,6 @@
 baseURL = "/"
 languageCode = "en-us"
-title = "Technology Blog Wim"
+title = "Certification Blog Wim"
 theme = "mainroad"
 pygmentsCodefences = true
 pygmentsStyle = "arduino"
