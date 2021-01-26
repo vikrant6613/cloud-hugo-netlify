@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>RESTCONF on Technology Blog Wim</title>
+    <link>/tags/restconf/</link>
+    <description>Recent content in RESTCONF on Technology Blog Wim</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 04 Apr 2020 12:32:50 +0100</lastBuildDate>
+    
+	<atom:link href="/tags/restconf/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>RESTCONF with Python</title>
+      <link>/networkprogrammability/2020-04-04_restconf_python/</link>
+      <pubDate>Sat, 04 Apr 2020 12:32:50 +0100</pubDate>
+      
+      <guid>/networkprogrammability/2020-04-04_restconf_python/</guid>
+      <description>Installation In this post, we went over a number of use cases. We used POSTMAN to understand the details. Here is the list of use cases for your convenience.</description>
+    </item>
+    
+    <item>
+      <title>RESTCONF intro with Postman - Part 2</title>
+      <link>/networkprogrammability/2020-04-03_restconf_introduction_part2/</link>
+      <pubDate>Fri, 03 Apr 2020 12:32:50 +0100</pubDate>
+      
+      <guid>/networkprogrammability/2020-04-03_restconf_introduction_part2/</guid>
+      <description>Introduction In part 1, we have introduced RESTCONF and explored it a bit using POSTMAN. I admit that post was a little dry and could leave some bad taste in your mouth :-).</description>
+    </item>
+    
+    <item>
+      <title>RESTCONF intro with Postman - Part 1</title>
+      <link>/networkprogrammability/2020-04-02_restconf_introduction_part1/</link>
+      <pubDate>Thu, 02 Apr 2020 12:32:50 +0100</pubDate>
+      
+      <guid>/networkprogrammability/2020-04-02_restconf_introduction_part1/</guid>
+      <description>What is RESTCONF As per RFC 8040 (RESTCONF Protocol), the IETF describes RESTCONF as:
+ an HTTP-based protocol that provides a programmatic interface for accessing data defined in YANG, using the datastore concepts defined in the Network Configuration Protocol (NETCONF).</description>
+    </item>
+    
+  </channel>
+</rss>

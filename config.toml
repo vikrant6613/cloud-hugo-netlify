@@ -1,0 +1,70 @@
+baseURL = "/"
+languageCode = "en-us"
+title = "Technology Blog Wim"
+theme = "mainroad"
+pygmentsCodefences = true
+pygmentsStyle = "arduino"
+summaryLength = 20
+paginate = 10
+#googleAnalytics="UA-83351442-2"
+googleAnalytics="UA-83351442-2"
+disqusShortname = "blog-wimwauters"
+
+[Author] # Used in authorbox
+  name = "Wim"
+  avatar = "img/avatar.png"
+
+[menu] 
+  [[menu.main]]
+  identifier = "all"
+  name = "All Posts"
+  url = "/categories/all/"
+  weight = 1
+
+  [[menu.main]]
+  identifier = "aws"
+  name = "AWS"
+  url = "/aws"
+  weight = 2
+
+  [[menu.main]]
+  identifier = "azure"
+  name = "Azure"
+  url = "/azure"
+  weight = 3
+
+  [[menu.main]]
+  identifier = "about"
+  name = "About Me"
+  url = "/about"
+  weight = 4
+
+[Params]
+  subtitle = "Cloud summary" # Subtitle of your site. Used in site header
+  copyright = "Wim Wauters" # Footer copyright holder, otherwise will use site title
+  logo = "img/logo_blog.png"
+  readmore = true
+  highlightColor = "#9f0101" # Override highlight color
+  customCSS = ["css/custom.css"] # Include custom CSS files
+  post_navigation = true # Show post navigation at bottom of pages if true
+  post_meta = ["date"] # Order of post meta information
+  canonifyURLs = true
+  mainSections = ["aws", "azure"]
+
+[Params.sidebar]
+  home = "right" # Configure layout for home page
+  list = "right"  # Configure layout for list pages
+  single = "right" # Configure layout for single pages
+  # Enable widgets in given order
+  widgets = ["recent", "categories", "taglist", "social"]
+
+[Params.widgets]
+  recent_num = 10 # Set the number of articles in the "Recent articles" widget
+  tags_counter = true
+
+[Params.widgets.social]
+  # Enable parts of social widget
+  twitter = "@Wauters_Wim"
+  linkedin = "https://www.linkedin.com/in/wim-wauters"
+  github = "https://github.com/wiwa1978"
+  email = "blogwimwauters@gmail.com"
